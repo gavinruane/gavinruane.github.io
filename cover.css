@@ -16,7 +16,6 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-image: url(Assets\backgroundindex);
-  background-color: #fff;
   border: .05rem solid #fff;
 }
 
