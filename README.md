@@ -1,4 +1,4 @@
-# gavinruane.github.io
+# Gavin's Website Project
 Hi there! I'm Gavin, and I just launched my photogrsphy site on Github Pages. I thought I would document my process on my README.md file! Visit me at www.gavinruane.github.io. 
 # index.html
 My index.html page is my homepage. It's based off of the Cover Bootstrap example, with a custom background. I added a custom background by adding the "background-image: url("image.png")" property to my CSS page under the "html, body" class. Once you correctly place your photo, it should be simple to access it as the background image.
