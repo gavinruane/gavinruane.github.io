@@ -21,7 +21,7 @@
       <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
       <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="text" id="inputEmail" class="form-control" placeholder="Email address" name="userid" required autofocus>
+      <input type="text" id="inputEmail" class="form-control" placeholder="Username" name="userid" required autofocus>
       <label for="inputPassword" class="sr-only">Password</label>
       <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="pswrd" required>
       <div class="checkbox mb-3">
@@ -35,7 +35,7 @@
     <script language="javascript">
       function check(form) { /*function to check userid & password*/
         /*the following code checkes whether the entered userid and password are matching*/
-        if(form.userid.value == "ruanefamily" && form.pswrd.value == "1226shafterNET") {
+        if(form.userid.value == "ruanefamily" | "whitefamily" && form.pswrd.value == "1226shafterNET" | "familyphoto") {
             window.open('tahoe2017.html')/*opens the target page while Id & password matches*/
         }
         else {
